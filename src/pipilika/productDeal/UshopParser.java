@@ -1,19 +1,13 @@
-package com.company;
+package pipilika.productDeal;
 
-import org.json.JSONException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
 
-public class ushopParser {
+public class UshopParser {
     public static void main(String[] args) {
 
         System.out.println("Running!");
